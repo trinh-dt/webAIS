@@ -1,0 +1,85 @@
+/*
+Template Name: Velzon - Admin & Dashboard Template
+Author: Themesbrand
+Version: 4.1.0
+Website: https://themesbrand.com/
+Contact: support@themesbrand.com
+File: Main Css File
+*/
+
+//Fonts
+@import "../../fonts/fonts";
+
+//Core files
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "variables";
+@import "variables-custom";
+@import "variables-dark";
+@import "./node_modules/bootstrap/scss/mixins";
+
+// Structure
+@import "../../structure/topbar";
+@import "../../structure/page-head";
+@import "../../structure/footer";
+@import "../../structure/vertical";
+@import "../../structure/horizontal";
+@import "../../structure/two-column";
+@import "../../structure/layouts";
+
+// Components
+@import "../../components/waves";
+@import "../../components/avatar";
+@import "../../components/accordion";
+@import "../../components/helper";
+@import "../../components/preloader";
+@import "../../components/forms";
+@import "../../components/widgets";
+@import "../../components/demos";
+@import "../../components/print";
+@import "../../components/ribbons";
+@import "../../components/toast";
+@import "../../components/scrollspy";
+
+// Bootstrap components
+@import "../../components/root";
+@import "../../components/reboot";
+@import "../../components/alerts";
+@import "../../components/badge";
+@import "../../components/buttons";
+@import "../../components/breadcrumb";
+@import "../../components/card";
+@import "../../components/dropdown";
+@import "../../components/nav";
+@import "../../components/table";
+@import "../../components/modal";
+@import "../../components/pagination";
+@import "../../components/progress";
+@import "../../components/popover";
+@import "../../components/type";
+@import "../../components/form-check";
+@import "../../components/form-control";
+@import "../../components/list-group";
+
+// Plugins
+@import "../../plugins/custom-scrollbar";
+@import "../../plugins/multijs";
+@import "../../plugins/filepond";
+@import "../../plugins/form-input-spin";
+@import "../../plugins/autocomplete";
+@import "../../plugins/datatables";
+
+// Plugins
+@import "../../plugins/toastify";
+@import "../../plugins/choices";
+@import "../../plugins/flatpicker";
+
+// Pages
+@import "../../pages/authentication";
+@import "../../pages/dashboard";
+@import "../../pages/timeline";
+@import "../../pages/errors";
+@import "../../pages/profile";
+@import "../../pages/sitemap";
+@import "../../pages/coming-soon";
+@import "../../pages/search-results";
